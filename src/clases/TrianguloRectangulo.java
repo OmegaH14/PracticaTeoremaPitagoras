@@ -41,8 +41,10 @@ public class TrianguloRectangulo {
 		 * 
 		 * @return hipotenusa
 		 */
-		private double hipotenusa() {
-			return Math.round(Math.sqrt((Math.pow(this.a, 2) + Math.pow(this.b, 2))));
+		public double hipotenusa() {
+			
+			double resultado = Math.round(Math.sqrt(Math.pow(this.a, 2) + Math.pow(this.b, 2)) * 100);
+			return resultado / 100;
 		}
 		
 		/**
