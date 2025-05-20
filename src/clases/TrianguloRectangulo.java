@@ -33,7 +33,7 @@ public class TrianguloRectangulo {
 		 * 
 		 * @return area
 		 */
-		private double area() {
+		public double area() {
 			return (this.a * this.b)/2;
 		}
 		
@@ -49,7 +49,7 @@ public class TrianguloRectangulo {
 		 * 
 		 * @return perimetro
 		 */
-		private double perimetro() {
+		public double perimetro() {
 			return this.a + this.b + this.hipotenusa();
 		}
 		/**
